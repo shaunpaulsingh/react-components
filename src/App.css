@@ -1,3 +1,7 @@
+html{
+  background-color: #ffd000;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +15,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.clearall{
+  clear: both;
 }
 
 .App-header {
@@ -35,7 +42,7 @@
   float: left;
 }
 .form_component{
-  background-color: #cfcfcf;
+  background-color: #f1f1f1;
   border-radius: 30px;
   padding: 30px;
 }
@@ -67,10 +74,80 @@
   width: 100%;
 }
 .card{
-  background-color: #cfcfcf;
+  background-color: #f1f1f1;
   border-radius: 30px;
   padding: 30px;
 }
+.card_img{
+  width: 100%;
+  border-radius: 15px;
+}
+.dialogue{
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  list-style: none;
+  margin-left: -30px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+/* activate toggle */
+.accordion_item.active .button {
+  background-color: #ffd900;
+}
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
+
+.button {
+  font-size: 16px;
+  background-color: #ffd900;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.control {
+  font-size: 20px;
+}
+
+.answer {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
