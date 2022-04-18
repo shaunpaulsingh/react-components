@@ -10,5 +10,8 @@ Right now we have:<br>
 2. Gallery component<br>
 3. Card component<br>
 4. Settings component<br>
+4. Login component<br>
+5. Dialogue component<br>
+6. Accordian component<br>
 
 I will add more as we go along.
