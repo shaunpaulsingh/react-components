@@ -9,6 +9,9 @@ import Navbar from './components/Navbar';
 import Pagination from './components/Pagination';
 import Settings from './components/Settings';
 import TagCloud from './components/TagCloud';
+import Search from './components/Search';
+
+import {initialdetails} from './components/initialdetails'
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
       <Accordian />
       <TagCloud />
       <Pagination />
+      <Search details={initialdetails}/>
     </div>
   );
 }

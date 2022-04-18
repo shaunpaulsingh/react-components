@@ -17,5 +17,6 @@ Right now we have:<br>
 5. Dialogue component<br>
 6. Accordian component<br>
 7. Tag Cloud component<br>
+8. Search component<br>
 
 I will add more as we go along.
