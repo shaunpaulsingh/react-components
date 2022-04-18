@@ -9,12 +9,13 @@ class Gallery extends Component{
             <div className="third left">
                 <h1>Gallery Component</h1>
                 <div className="card">
-                    <ul>
+                    <ul className="zero">
                     {pics.map((pics, index) => (
                         <GalleryItem pics={pics} key={index}/>
                     ))}
-                    </ul>
                     <div className="clearall"></div>
+
+                    </ul>
                 </div>
                 
             </div>

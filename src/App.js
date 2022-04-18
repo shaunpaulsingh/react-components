@@ -6,6 +6,7 @@ import Form from './components/Form.js'
 import Gallery from './components/Gallery';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import Pagination from './components/Pagination';
 import Settings from './components/Settings';
 import TagCloud from './components/TagCloud';
 
@@ -23,6 +24,7 @@ function App() {
       <Dialogue />
       <Accordian />
       <TagCloud />
+      <Pagination />
     </div>
   );
 }
