@@ -5,6 +5,7 @@ import Dialogue from './components/Dialogue';
 import Form from './components/Form.js'
 import Gallery from './components/Gallery';
 import Login from './components/Login';
+import Navbar from './components/Navbar';
 import Settings from './components/Settings';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div>
       <h1>Sample React Components</h1>
       <h4>Author: Shaun Paul Singh</h4>
+      <Navbar />
       <Form />
       <Gallery />
       <Card />

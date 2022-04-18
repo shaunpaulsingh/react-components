@@ -1,4 +1,6 @@
 import { Component } from "react";
+import {pics} from "./gallerydata"
+import GalleryItem from "./GalleryItem"
 
 class Gallery extends Component{
 
@@ -7,35 +9,16 @@ class Gallery extends Component{
             <div className="third left">
                 <h1>Gallery Component</h1>
                 <div className="card">
-                    <div className="gallery_item">
-                        <h3>Image Label</h3>
-                        <img className="gallery_img" src="./cat.jpg" />
-                    </div>
-                    <div className="gallery_item">
-                        <h3>Image Label</h3>
-                        <img className="gallery_img" src="./cat.jpg" />
-                    </div>
-                    <div className="gallery_item">
-                        <h3>Image Label</h3>
-                        <img className="gallery_img" src="./cat.jpg" />
-                    </div>
-                    <div className="gallery_item">
-                        <h3>Image Label</h3>
-                        <img className="gallery_img" src="./cat.jpg" />
-                    </div>
-                    <div className="gallery_item">
-                        <h3>Image Label</h3>
-                        <img className="gallery_img" src="./cat.jpg" />
-                    </div>
-                    <div className="gallery_item">
-                        <h3>Image Label</h3>
-                        <img className="gallery_img" src="./cat.jpg" />
-                    </div>
+                    <ul>
+                    {pics.map((pics, index) => (
+                        <GalleryItem pics={pics} key={index}/>
+                    ))}
+                    </ul>
                     <div className="clearall"></div>
                 </div>
                 
             </div>
-        );
+        )
     }
 }
 

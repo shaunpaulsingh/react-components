@@ -1,7 +1,9 @@
 html{
   background-color: #ffd000;
 }
-
+body{
+  padding: 30px;
+}
 .App {
   text-align: center;
 }
@@ -38,8 +40,26 @@ html{
   width: 30%;
   padding: 1%;
 }
+.padding{
+  padding: 30px;
+}
+.navbar{
+  height: 50px;
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+.navbar ul{
+  list-style: none;
+}
 .left{
   float: left;
+}
+.right{
+  float: right;
+}
+.v_space{
+  margin-left: 15px;
 }
 .form_component{
   background-color: #f1f1f1;
@@ -65,12 +85,21 @@ html{
   color: white;
   border: none;
 }
-.gallery_item{
+.gallery_container{
   width: 30%;
+  overflow: hidden;
+  margin-right: 5px;
+}
+.gallery_item{
+  display: block;
+  width: 100%;
   float: left;
   padding-right: 1%;
+  list-style: none;
 }
 .gallery_img{
+  display: block;
+  position: relative;
   width: 100%;
 }
 .card{
@@ -100,7 +129,7 @@ html{
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active {
   background-color: #ccc;
 }
 
@@ -146,6 +175,14 @@ html{
 .answer {
   background-color: #f7f7f7;
   padding: 20px;
+}
+
+.card_action{
+  width: 50%;
+  color:rgb(0, 0, 0);
+  background-color: #f1f1f1;
+  border: none;
+  height: 50px;
 }
 
 @keyframes App-logo-spin {
