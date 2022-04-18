@@ -15,7 +15,6 @@ const Accordion = () => {
   return (
       <div className="third left">
           <h1>Accordian Component</h1>
-          <div className="card">
           <ul className="accordion">
             {faqs.map((faq, index) => (
                 <AccordionItem
@@ -26,7 +25,6 @@ const Accordion = () => {
                 />
             ))}
             </ul>
-          </div>
           
             <div className="clearall"></div>
       </div>

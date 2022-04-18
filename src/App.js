@@ -7,6 +7,7 @@ import Gallery from './components/Gallery';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
 import Settings from './components/Settings';
+import TagCloud from './components/TagCloud';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Login />
       <Dialogue />
       <Accordian />
+      <TagCloud />
     </div>
   );
 }

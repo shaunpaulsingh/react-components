@@ -9,7 +9,7 @@ const GalleryItem = ({pics}) => {
       <div className="gallery_item">
         <h4>{headline}</h4>
         <img className="gallery_img" src={image}></img>
-        <p>{description}</p>
+        <p className="gallery_desc">{description}</p>
       </div>
     </li>
   );
