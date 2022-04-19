@@ -7,7 +7,7 @@ class Login extends Component{
             <div className="third left">
                 <h1>Login Component</h1>
                 <div className="card">
-                    <img className="card_img" alt="test" src="./cat.jpg" />
+                    <img className="card_img" alt="test" src={process.env.PUBLIC_URL + '/cat.jpg'} />
                     <h3>Please Login</h3>
                     <form>
                         <label className="label_form">Username</label>
