@@ -1,17 +1,28 @@
 import { Component } from "react";
 
 class Dialogue extends Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+            title: "This is a title",
+            message: "This is a message. This tells the user what to do in the dialogue.",
+            actions: ["Cancel","Accept"]
+        }
+    }
 
     render(){
         return(
             <div className="third left">
                 <h1>Dialogue Component</h1>
                 <div className="dialogue">
-                    <h1>Dialogue Title</h1>
-                    <p>This is a paragraph of text. This text describes the action that the user has to take in order for the dialogue to disappear.</p>
-                    <button className="card_action">Action 1</button>
-                    <div className="v_div"></div>
-                    <button className="card_action active">Action 2</button>
+                    <h1>{this.state.title}</h1>
+                    <p>{this.state.message}</p>
+                    {
+                        this.state.actions.map((action, index) =>
+                            <button className="card_action" key={index}>{action}</button>
+                        )
+                    }
                 </div>
             </div>
         );

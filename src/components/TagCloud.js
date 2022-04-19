@@ -1,6 +1,13 @@
 import { Component } from "react";
 
 class TagCloud extends Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+            tags : ['Shaun', 'Jeremy', 'Horses', 'Mules', 'Javascript', 'Java', 'React', 'Spring Boot'],
+        }
+    }
 
     render(){
         return(
@@ -9,16 +16,9 @@ class TagCloud extends Component{
                 <div className="card">
                     <h1>Title</h1>
                     
-                    <div className="tag left active">Cats <span className="tag_icon">x</span></div>
-                    <div className="tag left">Dogs</div>
-                    <div className="tag left">Mules</div>
-                    <div className="tag left">Horses</div>
-                    <div className="tag left">Dogs</div>
-                    <div className="tag left">Mules</div>
-                    <div className="tag left">Horses</div>
-                    <div className="tag left">Dogs</div>
-                    <div className="tag left">Mules</div>
-                    <div className="tag left">Horses</div>
+                    {this.state.tags.map((tag, index) => (
+                        <div className="tag left">{tag}</div>
+                    ))}
 
                     <div className="clearall"></div>
                 </div>
