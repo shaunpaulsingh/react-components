@@ -18,13 +18,13 @@ class Settings extends Component{
                         <label>School</label>
                         <input type="checkbox"></input>
                         <label>General</label><br></br>
-                        <label for="meeting-time">Set local time and date</label>
+                        <label>Set local time and date</label>
                         <input className="input_form" type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00"></input><br></br>
-                        <label for="head">Choose a window color</label>
+                        <label>Choose a window color</label>
                         <input className="input_form" type="color" id="head" name="head" value="#e66465"></input><br></br>
-                        <label for="volume">Volume</label>
+                        <label>Volume</label>
                         <input type="range" id="volume" name="volume" min="0" max="11"></input><br></br>
-                        <label for="pet-select">Choose a pet:</label>
+                        <label>Choose a pet:</label>
 
                         <select className="input_form" name="pets" id="pet-select">
                             <option value="">--Please choose an option--</option>

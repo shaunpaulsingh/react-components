@@ -18,7 +18,7 @@ class Pagination extends Component{
                     <div className="page left">&#x3C;&#x3C;</div>
                     <div className="page left">&#x3C;</div>
                     {this.state.addresses.map((addresses, index) => (
-                        <div className="page left"><a href={addresses}>{index}</a></div>
+                        <div className="page left" key={index}><a href={addresses}>{index}</a></div>
                     ))}
 
                     <div className="page left">&#x3E;</div>

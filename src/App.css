@@ -4,6 +4,13 @@ html{
 body{
   padding: 30px;
 }
+h1,h2,h3,h4,h5,h6{
+  padding: 10px;
+  margin: 0px;
+}
+.card input{
+  width: 90%;
+}
 .App {
   text-align: center;
 }
@@ -100,16 +107,20 @@ body{
 .settings{
   font-size: small;
 }
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .gallery_container{
-  width: 49%;
+  width: 48%;
   overflow: hidden;
-  margin-right: 5px;
   padding: 0px;
 }
 .gallery_item{
   display: block;
   width: 100%;
-  float: left;
   padding-right: 1%;
   list-style: none;
 }
@@ -125,11 +136,11 @@ body{
 .card{
   background-color: #f1f1f1;
   border-radius: 30px;
-  padding: 15px;
+  padding: 5px;
 }
 .card_img{
   width: 100%;
-  border-radius: 15px;
+  border-radius: 30px 30px 0px 0px;
 }
 .dialogue{
   background-color: #f1f1f1;
@@ -209,6 +220,27 @@ body{
 }
 .card_action.active{
   background-color: #dddddd !important;
+}
+.search_img{
+  float: left;
+  width: 25%;
+}
+.search_box{
+  padding-left: 5%;
+  width: 95%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-top: #cfcfcf 1px solid;
+}
+.search_title{
+  margin: 0;
+  font-size: large;
+  font-weight: bold;
+}
+.search_desc{
+  margin: 0;
+  font-size: small;
+  font-weight: 500;
 }
 .v_div{
   min-width: 1px;

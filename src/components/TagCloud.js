@@ -17,7 +17,7 @@ class TagCloud extends Component{
                     <h1>Title</h1>
                     
                     {this.state.tags.map((tag, index) => (
-                        <div className="tag left">{tag}</div>
+                        <div className="tag left" key={index}>{tag}</div>
                     ))}
 
                     <div className="clearall"></div>
