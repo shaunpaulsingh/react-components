@@ -4,9 +4,12 @@ html{
 body{
   padding: 30px;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, p{
   padding: 10px;
   margin: 0px;
+}
+p{
+  font-size: small;
 }
 .card input{
   width: 90%;
@@ -144,7 +147,15 @@ h1,h2,h3,h4,h5,h6{
 }
 .dialogue{
   background-color: #f1f1f1;
-  padding: 30px;
+  padding: 5px;
+}
+.dialogue .Accept{
+  background-color: #001641;
+  color: white;
+}
+.dialogue .Cancel{
+  background-color: #b3b3b3;
+  color: white;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -223,7 +234,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .search_img{
   float: left;
-  width: 25%;
+  width: 40%;
 }
 .search_box{
   padding-left: 5%;

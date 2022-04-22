@@ -20,7 +20,7 @@ class Dialogue extends Component{
                     <p>{this.state.message}</p>
                     {
                         this.state.actions.map((action, index) =>
-                            <button className="card_action" key={index}>{action}</button>
+                            <button className={action + ' card_action'} key={index}>{action}</button>
                         )
                     }
                 </div>

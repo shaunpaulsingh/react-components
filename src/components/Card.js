@@ -8,11 +8,10 @@ class Card extends Component{
                 <h1>Card Component</h1>
                 <div className="card">
                     <h1>Card Title</h1>
-                    <p>This is a paragraph of text.</p>
                     <img className="card_img" alt="test" src={process.env.PUBLIC_URL + '/cat.jpg'}></img><br></br>
-                    <button className="card_action">Action 1</button>
-                    <div className="v_div"></div>
-                    <button className="card_action active">Action 2</button>
+                    
+                    <h3>This is the message title of the card</h3>
+                    <p>This is more information that can be presented in a description. This tells the user information about this card.</p>
                 </div>
             </div>
         );
