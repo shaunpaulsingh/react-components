@@ -116,6 +116,10 @@ p{
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.gallery::after {
+  content: "";
+  flex: auto;
+}
 .gallery_container{
   width: 48%;
   overflow: hidden;
