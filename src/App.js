@@ -19,11 +19,13 @@ function App() {
       <h1>Sample React Components</h1>
       <h4>Author: Shaun Paul Singh</h4>
       <Navbar />
+      <Login />
+      <Card />
       <Form />
       <Gallery />
-      <Card />
+      
       <Settings />
-      <Login />
+      
       <Dialogue />
       <Accordian />
       <TagCloud />
