@@ -268,7 +268,9 @@ p{
   margin-right: 5px;
   margin-bottom: 10px;
   padding: 5px;
-  border-radius: 5px;
+  padding-left: 25px;
+  border-radius: 15px;
+  padding-right: 15px;
 }
 .tag.active{
   background-color: #252525;
