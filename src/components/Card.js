@@ -1,6 +1,16 @@
 import { Component } from "react";
 
 class Card extends Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+            title: "This is a title",
+            message: "This is a message. This tells the user what to do in the card.",
+            actions: ["CANCEL","ACCEPT"],
+            actions_URL: ["https://hellorobotron.com", "https://hellorobotron.com"]
+        }
+    }
 
     render(){
         return(
@@ -18,17 +28,20 @@ class Card extends Component{
                     </div>
 
                     <div id="This_is_a_title_b">
-                        <span>This is a title</span>
+                        <span>{this.state.title}</span>
                     </div>
                     <div id="This_is_a_description_This_tex_b">
-                        <span>This is a description. This text lets the user know what the image is supposed to mean.</span>
+                        <span>{this.state.message}</span>
                     </div>
-                    <div id="ACTION_1">
-                        <span>ACTION 1</span>
-                    </div>
-                    <div id="ACTION_2">
-                        <span>ACTION 2</span>
-                    </div>
+
+                    
+                    {
+                        this.state.actions.map((action, index) =>
+                        <div id={"ACTION_" + (index + 1)}>
+                            <a href={this.state.actions_URL[index]}><span>{action}</span></a>
+                        </div>
+                        )
+                    }
                 </div>
         );
     }
