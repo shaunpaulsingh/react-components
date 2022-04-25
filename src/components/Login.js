@@ -10,7 +10,7 @@ class Login extends Component{
                     </rect>
                 </svg>
 
-                <img id="cat_ca" src={process.env.PUBLIC_URL + '/cat.jpg'}></img>
+                <img id="cat_ca" alt="img" src={process.env.PUBLIC_URL + '/cat.jpg'}></img>
                     
                 <div id="Login__Sign_Up">
                     <span>Login / Sign Up</span>

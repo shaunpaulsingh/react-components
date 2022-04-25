@@ -7,7 +7,7 @@ const GalleryItem = ({pics}) => {
   return (
     <li className="left gallery_container" ref={contentEl}>
       <div id="Group_1">
-        <img id="cat" src="cat.png" srcset={process.env.PUBLIC_URL + image}></img>
+        <img id="cat" src="cat.png" alt="img" srcset={process.env.PUBLIC_URL + image}></img>
           
         <div id="This_is_a_title">
           <span>{headline}</span>

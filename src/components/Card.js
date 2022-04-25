@@ -10,9 +10,9 @@ class Card extends Component{
                         </rect>
                     </svg>
 
-                    <img id="cat_bz" src="cat_bz.png" srcset={process.env.PUBLIC_URL + '/cat.jpg'}></img>
+                    <img id="cat_bz" alt="img" src="cat_bz.png" srcset={process.env.PUBLIC_URL + '/cat.jpg'}></img>
 			
-		            <img id="cat_b" src="cat_b.png" srcset={process.env.PUBLIC_URL + '/cat_b.png'}></img>
+		            <img id="cat_b" alt="img" src="cat_b.png" srcset={process.env.PUBLIC_URL + '/cat_b.png'}></img>
                     <div id="Shaun_Paul_Singh_Singapore_100">
                         <span>Shaun Paul Singh</span><br/><span>Singapore<br/>10:00 AM +0800</span>
                     </div>

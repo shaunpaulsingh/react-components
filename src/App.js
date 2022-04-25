@@ -2,12 +2,10 @@ import './App.css';
 import Accordian from './components/Accordian';
 import Card from './components/Card';
 import Dialogue from './components/Dialogue';
-import Form from './components/Form.js'
 import Gallery from './components/Gallery';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
 import Pagination from './components/Pagination';
-import Settings from './components/Settings';
 import TagCloud from './components/TagCloud';
 import Search from './components/Search';
 
