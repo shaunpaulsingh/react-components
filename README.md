@@ -8,6 +8,9 @@ These are React components that I am creating from scratch. I am writing these f
 You'll be able to steal the layouts for now but these components are not really for use "as is" right now.
 I'll probably do that in the future. I'm still learning React to be honest.
 
+I've now added generated HTML taken from XD to try to get it closer to a workable design system. I'm referencing
+Material Design here. It's still in the works so YMMV.
+
 There is no external CSS, because I'm learning and what is the point of using bootstrap when I'm learning to build components right?
 
 Right now we have:<br>
