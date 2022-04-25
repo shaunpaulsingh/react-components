@@ -678,3 +678,94 @@ p{
 		top: 489px;
 		transform: matrix(1,0,0,1,0,0);
 	}
+
+
+
+  #Group_10 {
+		position: relative;
+		width: 486px;
+		height: 199px;
+		overflow: visible;
+	}
+	#Rectangle_2_ct {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2_ct {
+		position: absolute;
+		overflow: visible;
+		width: 486px;
+		height: 199px;
+		left: 0px;
+		top: 0px;
+	}
+	#This_is_a_title_cu {
+		left: 20px;
+		top: 23px;
+		position: absolute;
+		overflow: visible;
+		width: 449px;
+		height: 27px;
+		text-align: left;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(35,35,35,1);
+	}
+	#This_is_a_description_This_tex_cv {
+		left: 20px;
+		top: 55px;
+		position: absolute;
+		overflow: visible;
+		width: 441px;
+		height: 42px;
+		text-align: left;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(35,35,35,1);
+	}
+	#ACTION_1_cx {
+		left: 300px;
+		top: 158px;
+		position: absolute;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		text-align: left;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,144,255,1);
+	}
+	#ACTION_2_cx {
+		left: 390px;
+		top: 158px;
+		position: absolute;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		text-align: left;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,144,255,1);
+	}
+	#Dialogue_Components {
+		left: 46px;
+		top: 1690px;
+		position: absolute;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		text-align: left;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(35,35,35,1);
+	}

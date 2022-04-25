@@ -21,10 +21,7 @@ function App() {
       <Navbar />
       <Login />
       <Card />
-      <Form />
       <Gallery />
-      
-      <Settings />
       
       <Dialogue />
       <Accordian />
