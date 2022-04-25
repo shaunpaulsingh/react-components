@@ -7,7 +7,8 @@ class Dialogue extends Component{
         this.state = {
             title: "This is a title",
             message: "This is a message. This tells the user what to do in the dialogue.",
-            actions: ["CANCEL","ACCEPT"]
+            actions: ["CANCEL","ACCEPT"],
+            actions_URL: ["https://hellorobotron.com", "https://hellorobotron.com"]
         }
     }
 
@@ -29,7 +30,7 @@ class Dialogue extends Component{
                     {
                         this.state.actions.map((action, index) =>
                         <div id={"ACTION_" + (index + 1) + "_cx"}>
-                            <span>{action}</span>
+                            <a href={this.state.actions_URL[index]}><span>{action}</span></a>
                         </div>
                         )
                     }
